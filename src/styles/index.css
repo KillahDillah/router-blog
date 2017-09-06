@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app-wrap {
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  background-color: lightseagreen;
+}
+
+nav {
+  display: flex;
+  border-bottom: solid 2px black;
+  justify-content: space-between;
+  background-color: darkseagreen;
+}
+.nav-wrap {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+.post-wrap {
+  text-align: center;
+  margin: 10px;
+}
+
+form {
+  width: 30%;
+  margin: auto;
+}
+
+.post-form {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 200px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: darkblue;
+  font-size: small;
+}
+
+p {
+  color: blue;
+  text-indent: 10px;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+}
+
+.results-wrap {
+  text-align: center;
+}
+
+.result {
+  
+}
